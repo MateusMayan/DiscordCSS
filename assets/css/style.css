@@ -25,6 +25,36 @@ header {
     background-repeat: round;
 }
 
+@media screen and (max-width: 720px) {
+    header{
+        background-image: url(../img/Header\ Background-mobile.png);
+    }
+    
+    .header-content h1{
+        text-align: left;
+    }
+
+    .button-header-2{
+        min-width: 100%;
+    }
+
+    .button-header-1 { 
+        min-width: 100%;
+    }
+
+    .header-content p{
+        text-align: left;
+    }
+
+    .main-section-4 h1{
+        text-align: left;
+    }
+
+    .main-section-4 p{
+        text-align: center;
+    }
+}
+
 .header-content {
     display: flex;
     flex-direction: column;
@@ -39,6 +69,7 @@ header h1 {
     font-size: 3.5rem;
     max-width: 350px;
     text-align: center;
+    margin: 24px 0 0 0;
 }
 
 header p {
@@ -58,6 +89,8 @@ header button {
 .buttons-header {
     display: flex;
     gap: 16px;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .button-header-2 {
@@ -106,7 +139,7 @@ main {
 
 .main-section-4 h1 {
     font-family: 'Luckiest Guy', cursive;
-
+    font-size: 2rem;
 }
 
 footer {
